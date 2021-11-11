@@ -1,0 +1,32 @@
+{
+    "name": "sefasungur/google-maps-javascript-api",
+    "description": "Google Maps Javascript API for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://github.com/sefasungur/google-maps-javascript-api",
+    "authors": [
+        {
+            "name": "Sefa Sungur",
+            "email": "info@sefasungur.com",
+            "homepage": "https://www.sefasungur.com",
+            "role":  "developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sefasungur\\GoogleMapsJavascriptAPI\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sefasungur\\GoogleMapsJavascriptAPI\\GoogleMapsJavascriptAPIProvider"
+            ],
+            "aliases": {
+                "GMJA": "Sefasungur\\GoogleMapsJavascriptAPI\\Facades\\GoogleMapsJavascriptAPIFacade"
+            }
+        }
+    }
+}
