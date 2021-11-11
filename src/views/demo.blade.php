@@ -17,6 +17,6 @@
     </style>
 </head>
 <body>
-{!! GMJA::getMap("39.909078310909095,32.752862457671334",16,"Nano Medya", "https://voronezh.samosval.ru/img/map2.png","tr") !!}
+{!! GMJA::getCurrentMap("39.909078310909095,32.752862457671334",16,"tr", "hybrid", "Bul Beni", "button-123", "Konum Bulundu") !!}
 </body>
 </html>
