@@ -3,7 +3,7 @@
     "description": "Google Maps Javascript API for Laravel",
     "type": "library",
     "license": "MIT",
-    "homepage": "http://github.com/sefasungur/google-maps-javascript-api",
+    "homepage": "https://github.com/sefasungur/Laravel-Google-Maps-Javascript-API",
     "authors": [
         {
             "name": "Sefa Sungur",
